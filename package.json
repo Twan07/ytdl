@@ -7,10 +7,10 @@
     "download",
     "distube"
   ],
-  "version": "4.16.10",
+  "version": "4.16.9",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Twan07/ytdl.git"
+    "url": "git://github.com/distubejs/ytdl-core.git"
   },
   "author": "Skick (https://github.com/skick1234)",
   "contributors": [
@@ -29,9 +29,6 @@
     "lib",
     "typings"
   ],
-  "scripts": {
-    "prettier": "prettier --write \"**/*.{js,json,yml,md,ts}\""
-  },
   "dependencies": {
     "http-cookie-agent": "^7.0.1",
     "https-proxy-agent": "^7.0.6",
@@ -50,5 +47,8 @@
     "node": ">=20.18.1"
   },
   "license": "MIT",
-  "funding": "https://github.com/Twan07/ytdl?sponsor"
+  "funding": "https://github.com/distubejs/ytdl-core?sponsor",
+  "scripts": {
+    "prettier": "prettier --write \"**/*.{js,json,yml,md,ts}\""
+  }
 }
